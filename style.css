@@ -1,0 +1,324 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background: black;
+  }
+  
+  /*Universal adjustments (Code reset to margin and padding defaults, and changes to all h1 headers, sushi cursor) */
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center; 
+  }
+  
+   * {cursor: url(https://cur.cursors-4u.net/food/foo-7/foo619.cur), auto !important;} 
+  
+  
+  /* Hero Banner & Hero Text  */
+  
+  #hero-text {
+    Color: White;
+    border: 5px solid white;
+    height: 200px;
+    width: 350px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px 5px;
+    text-align: center;
+    box-sizing: border-box;
+  
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 5;
+  
+    
+  }
+  
+  
+  #hero-image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+  
+  } 
+  
+  /*Side Bar with Location/Hours Info  */ 
+  #location-info {
+    height: 250px;
+    width: 200px; 
+    Border: 3px solid white;
+    color: white;
+    text-align: center;
+  
+    position: relative;
+    top: 700px;
+    left: 1200px;
+    box-sizing: border-box;
+  
+  }
+  
+  /* Navigation Bar */
+  
+  
+  /* Add a black background color to the top navigation */
+  .topnav {
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 30px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:#A1112F ;
+    color: white;
+  }
+  
+  /* Home Page CSS */ 
+  
+  h2 {
+    color: white;
+    text-align: center; 
+  }
+  
+  .head-chef-pic{
+    width: 300px;
+    position: relative;
+    background-position: center;
+    left: 500px;
+    z-index: 1;
+    
+  }
+  
+  .head-chef-info{
+   Border: 2px solid white;
+   Height: 150px;
+    width: 800px;
+   Color: white;
+    text-align: center;
+    font-size: 18px;
+   Position: relative;
+   left: 250px;
+    top: 485px;
+   padding: 10px 10px;
+  }
+  
+  .fish-pic{
+    height: 302px;
+    width: 589px;
+    position: relative;
+    left: 355px;
+    top: 150px;
+   
+  }
+  
+  .fish-text{
+    Border: 2px solid white;
+    height: 100px;
+    width: 800px;
+    color: white;
+    text-align: center;
+    font-size: 18px; 
+    Position: relative; 
+    left: 250px; 
+    top: 600px;
+  }
+  
+  .tradition-pic{
+    height: 462px;
+    width: 786px;
+    position: relative;
+    left: 355px;
+    top: 300px;
+    z-index: 1;
+  }
+  
+  .tradition-info{
+    Border: 2px solid white;
+    height: 100px;
+    width: 800px;
+    color: white;
+    text-align: center;
+    font-size: 18px; 
+    position: relative; 
+    left: 250px; 
+    top: 900px;
+  }
+  
+  /*Footer Code below. */
+  .Footer {
+    color: white;
+    position: relative;
+    top: 1000px;
+    height: 100px;
+  }
+  
+  .Footer-Link {
+    color: white;
+    margin: 20px;
+  }
+  
+  .Footer-Text {
+    color: white;
+    text-align: center; 
+    width: 400px;
+    left: 500px;
+    position: relative;
+  }
+  
+  .FB-Img {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 1000px; 
+    top: 1px;
+    
+  }
+  
+  .Twit-Img {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 700px; 
+    top: 1px;
+    
+    
+  }
+  
+  .Insta-Img {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 400px; 
+    top: 1px;
+    
+  }
+  
+  .Tik-Img {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 100px; 
+    top: 1px;
+    
+  }
+  
+  
+  /*Our Story Page  */ 
+  
+  .our-story-info {
+   border: 5px solid white;
+   height: 200px;
+    width: 800px;
+   color: white;
+   text-align: center;
+   font-size: 18px;
+   Position: relative;
+   left: 250px;
+    top: 150px;
+  }
+  
+  .the-founder {
+    height: 400px;
+    width: 300px;
+    position: relative;
+    left: 500px;
+    top: 100px;
+  }
+  
+  .sushi-chef {
+    height: 459px;
+    width: 772px;
+    position: relative;
+    left: 325px;
+    top: 200px;
+    
+  }
+  
+  .kyoshi-today {
+    border: 5px solid white;
+    height: 200px;
+    width: 800px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    Position: relative;
+    left: 250px;
+    top: 300px;
+  }
+  
+  /* The Menu Page */
+  
+  .menu-items {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 100px; 
+    margin: 20px
+    
+  }
+  
+  ul li {
+    font-size: 20px;
+  }
+  
+  h2 {
+    color: white;
+    text-align: center; 
+  }
+  
+  .Menu-Img {
+    height: 200px;
+    width: 200px;
+  }
+  
+  /* Make a Reservation Page */
+  
+  .reservation {
+    color: white;
+    text-align: center;
+  }
+  
+  .note {
+    color: white;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  
+  /* Contact Page Code*/
+  
+  .contact-info {
+    color: white;
+    position: relative; 
+    left: 6ch;
+  }
